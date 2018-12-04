@@ -1,7 +1,7 @@
 Themify Icons SCSS
 ==================
 
-This testing is a SCSS version of the Themify Icons which includes mixins to create themify icons on the fly. I am basing the SCSS off of the SCSS verion of font-awesome. You can find themify icons here: [http://themify.me/themify-icons](http://themify.me/themify-icons)
+This is a SCSS version of the Themify Icons which includes mixins to create themify icons on the fly. I am basing the SCSS off of the SCSS verion of font-awesome. You can find themify icons here: [http://themify.me/themify-icons](http://themify.me/themify-icons)
 
 ##Install
 1. Download and put the themify-icons folder inside of your SASS folder.
