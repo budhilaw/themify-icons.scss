@@ -1,11 +1,11 @@
 
-[class^="icon-"],
-[class*=" icon-"] {
+[class^="#{$ti-icon-prefix}"],
+[class*=" #{$ti-icon-prefix}"] {
   @include icon-themify-icons();
 }
 
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
+[class^="#{$ti-icon-prefix}"]:before,
+[class*=" #{$ti-icon-prefix}"]:before {
   text-decoration: inherit;
   display: inline-block;
   speak: none;
@@ -19,15 +19,15 @@
 
 /* makes sure icons active on rollover in links */
 a {
-  [class^="icon-"],
-  [class*=" icon-"] {
+  [class^="#{$ti-icon-prefix}"],
+  [class*=" #{$ti-icon-prefix}"] {
     display: inline;
   }
 }
 
 /* increased font size for icon-large */
-[class^="icon-"],
-[class*=" icon-"] {
+[class^="#{$ti-icon-prefix}"],
+[class*=" #{$ti-icon-prefix}"] {
   &.icon-fixed-width {
     display: inline-block;
     width: (16em/14);
@@ -55,8 +55,8 @@ a {
 }
 
 // allows usage of the hide class directly on font awesome icons
-[class^="icon-"],
-[class*=" icon-"] {
+[class^="#{$ti-icon-prefix}"],
+[class*=" #{$ti-icon-prefix}"] {
   &.hide {
     display: none;
   }
@@ -116,8 +116,8 @@ a {
 .pull-right { float: right; }
 .pull-left { float: left; }
 
-[class^="icon-"],
-[class*=" icon-"] {
+[class^="#{$ti-icon-prefix}"],
+[class*=" #{$ti-icon-prefix}"] {
   &.pull-left {
     margin-right: .3em;
   }
